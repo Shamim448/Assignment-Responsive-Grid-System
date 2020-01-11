@@ -1,0 +1,42 @@
+.box-1 {
+  background-color: #9cc5f5;
+}
+
+.box1-1 {
+  background-color: #cee2f9;
+}
+
+.box-ad {
+  background-color: #70a7dd;
+  padding: 28px 0;
+}
+
+.body-height p {
+  padding: 100px 0;
+}
+
+.box-hiden {
+  background-color: #70a7dd;
+  padding: 32px 0;
+}
+
+@media(max-width:991px) {
+  .sidebar p {
+    padding: 0;
+  }
+
+  .body-box1 p {
+    padding: 25px 0;
+  }
+}
+
+@media(max-width:767px) {
+  .body-box1 p {
+    padding: 0;
+  }
+
+  .box-hiden {
+
+    padding: 10px 0;
+  }
+}
